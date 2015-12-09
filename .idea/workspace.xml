@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="128b0041-975b-4819-85c9-65553a8b88bb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/factories/ModelFactory.php" afterPath="$PROJECT_DIR$/database/factories/ModelFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/sass/app.scss" afterPath="$PROJECT_DIR$/resources/assets/sass/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Flyer.php" afterPath="$PROJECT_DIR$/app/Flyer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/FlyersController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/FlyersController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Photo.php" afterPath="$PROJECT_DIR$/app/Photo.php" />
     </list>
     <ignored path="owner-bay.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlyersController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FlyersController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FlyersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56836903" vertical-offset="525" max-vertical-offset="1695">
-              <caret line="58" column="61" selection-start-line="58" selection-start-column="61" selection-end-line="58" selection-end-column="61" />
+            <state vertical-scroll-proportion="-15.0" vertical-offset="600" max-vertical-offset="1740">
+              <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
               <folding>
                 <element signature="e#40#54#0#PHP" expanded="true" />
               </folding>
@@ -77,8 +74,8 @@
       <file leaf-file-name="Flyer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Flyer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="960">
-              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+            <state vertical-scroll-proportion="-10.291667" vertical-offset="338" max-vertical-offset="945">
+              <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
               <folding>
                 <element signature="e#23#62#0#PHP" expanded="true" />
               </folding>
@@ -86,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Photo.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Photo.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Photo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.875" vertical-offset="9" max-vertical-offset="630">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6919275" vertical-offset="15" max-vertical-offset="630">
+              <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
               <folding>
                 <element signature="e#23#62#0#PHP" expanded="true" />
               </folding>
@@ -134,12 +131,12 @@
         <option value="$PROJECT_DIR$/app/helpers.php" />
         <option value="$PROJECT_DIR$/resources/views/layout.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/sass/app.scss" />
-        <option value="$PROJECT_DIR$/app/Flyer.php" />
         <option value="$PROJECT_DIR$/resources/views/flyers/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/app/Photo.php" />
         <option value="$PROJECT_DIR$/resources/views/flyers/show.blade.php" />
+        <option value="$PROJECT_DIR$/app/Flyer.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/FlyersController.php" />
+        <option value="$PROJECT_DIR$/app/Photo.php" />
       </list>
     </option>
   </component>
@@ -795,26 +792,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Flyer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="960">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-          <folding>
-            <element signature="e#23#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Photo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.875" vertical-offset="9" max-vertical-offset="630">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
@@ -831,12 +808,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Flyer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.291667" vertical-offset="338" max-vertical-offset="945">
+          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+          <folding>
+            <element signature="e#23#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FlyersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56836903" vertical-offset="525" max-vertical-offset="1695">
-          <caret line="58" column="61" selection-start-line="58" selection-start-column="61" selection-end-line="58" selection-end-column="61" />
+        <state vertical-scroll-proportion="-15.0" vertical-offset="600" max-vertical-offset="1740">
+          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
           <folding>
             <element signature="e#40#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/flyer_photos/1449697208home-3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6919275" vertical-offset="15" max-vertical-offset="630">
+          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
+          <folding>
+            <element signature="e#23#62#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

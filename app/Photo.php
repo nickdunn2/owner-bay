@@ -11,7 +11,7 @@ class Photo extends Model
 
     protected $fillable = ['path'];
 
-    protected $baseDir = 'flyers/photos';
+    protected $baseDir = 'img/flyer_photos';
 
     /**
      * Every photo has a corresponding flyer.
@@ -27,7 +27,7 @@ class Photo extends Model
     {
         $photo = new static;
         $name = time() . $file->getClientOriginalName();
-        $photo->path = $photo->baseDir . '/' . $name;
+        $photo->path = '/' . $photo->baseDir . '/' . $name;
 
         $file->move($photo->baseDir, $name);
 
