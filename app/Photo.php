@@ -2,16 +2,25 @@
 
 namespace App;
 
+use Image;
 use Illuminate\Database\Eloquent\Model;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 
 class Photo extends Model
 {
+    /**
+     * The associated table.
+     *
+     * @var string
+     */
     protected $table = 'flyer_photos';
 
-    protected $fillable = ['path'];
-
-    protected $baseDir = 'img/flyer_photos';
+    /**
+     * Fillable fields for a photo.
+     *
+     * @var array
+     */
+    protected $fillable = ['name', 'path', 'thumbnail_path'];
 
     /**
      * Every photo has a corresponding flyer.
@@ -23,14 +32,21 @@ class Photo extends Model
         return $this->belongsTo('App\Flyer');
     }
 
-    public static function fromForm(UploadedFile $file)
+    public function setNameAttribute($name)
     {
-        $photo = new static;
-        $name = time() . $file->getClientOriginalName();
-        $photo->path = '/' . $photo->baseDir . '/' . $name;
-
-        $file->move($photo->baseDir, $name);
-
-        return $photo;
+        $this->attributes['name'] = $name;
+        $this->path = $this->baseDir() . '/' . $name;
+        $this->thumbnail_path = $this->baseDir() . '/tn-' . $name;
     }
+
+    /**
+     * Get the base directory for photo uploads.
+     *
+     * @return string
+     */
+    public function baseDir()
+    {
+        return 'img/flyer_photos';
+    }
+
 }
